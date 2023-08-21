@@ -97,8 +97,6 @@ def action():
             say(f"time is {hour}")
         elif 'camera' in query:
             os.startfile("microsoft.windows.camera:")
-        elif 'settings' in query:
-            subprocess.Popen('control.exe', shell=True)
         elif 'send message on whatsapp' in query:
             say('enter phone number')
             phone=input('phone number:- ')
