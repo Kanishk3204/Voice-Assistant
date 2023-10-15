@@ -6,7 +6,6 @@ import wikipedia
 import pyjokes
 import pywhatkit as pw
 import datetime
-import subprocess
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
@@ -29,11 +28,11 @@ def greet():
     else:
         print("Good evening  !")
         say("Good evening  !")
-    print("I am Your personal voice assistant, what can i do for you?")
-    say("I am Your personal voice assistant, what can i do for you?")
+    print("I am Kash, Your personal voice assistant, what can i do for you?")
+    say("I am Kash, Your personal voice assistant, what can i do for you?")
 
 def takecommand():
-    r=sr.Recognizer()
+    r = sr.Recognizer()
     with sr.Microphone() as source:
         print('Listening...')
         r.pause_threshold =  0.8
@@ -73,6 +72,12 @@ def action():
             what = query.replace('search', '')
             say(f"searching {what}")
             pw.search(what)
+        elif "hello cash" in query:
+            print("Hello Kanishk what can I do for You?")
+            say("Hello Kanishk what can I do for You?")
+        elif "what is your name" in query:
+            print("my name is Kash")
+            say("My name is Kash")
         elif 'who is' in query:
             person = query.replace('who is', '')
             info = wikipedia.summary(person, 1)
