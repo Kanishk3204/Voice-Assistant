@@ -22,7 +22,8 @@ Kash offers a range of features to make your life easier:
 
 ## How to Use
 
-- **Simply download exe file and store it in same directory as data folder**
+- **Simply download exe file and store it in same directory as data folder.**
+- **Run the .exe file.**
 - **or Install Latest version of Python.** 
 - **Install Pycharm software to run this python code.**
 - **Read Requirements.txt**
