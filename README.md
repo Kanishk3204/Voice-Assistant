@@ -2,11 +2,6 @@
 
 Kash is a smart and versatile personal voice assistant developed in Python using popular libraries such as SpeechRecognition, scikit-learn, Pywhatkit, Webbrowser, and more. Kash can assist you in various tasks, from movie recommendation to sentiment analysis, searching the web ,sending WhatsApp messages, playing YouTube videos, and providing information from Wikipedia. 
 
-
-## Link to the exe file
-
-
-https://drive.google.com/file/d/1IiPnECaLFiBQka1cSiBPFaTDH-hmspzt/view?usp=sharing
 ## Features
 
 Kash offers a range of features to make your life easier:
@@ -22,9 +17,7 @@ Kash offers a range of features to make your life easier:
 
 ## How to Use
 
-- **Simply download exe file and store it in same directory as data folder.**
-- **Run the .exe file.**
-- **or Install Latest version of Python.** 
+- **Install Latest version of Python.** 
 - **Install Pycharm software to run this python code.**
 - **Read Requirements.txt**
 - **Install,Update the necessary librabries in python.**
